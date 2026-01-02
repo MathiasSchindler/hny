@@ -16,10 +16,12 @@ const calendarConfigs = [
     { id: 'orthodox', name: 'Orthodox (Old NY)', region: 'Eastern Europe', icon: 'sparkles', type: 'static', month: 1, day: 14 },
     { id: 'thai', name: 'Thai (Songkran)', region: 'Thailand', icon: 'flower', type: 'static', month: 4, day: 13 },
     { id: 'berber', name: 'Berber (Yennayer)', region: 'North Africa', icon: 'mountain', type: 'static', month: 1, day: 12 },
+    // Spring equinox celebrations (March 20/21, historically related)
     { id: 'nowruz', name: 'Nowruz (Spring)', region: 'Central Asia / Persia', icon: 'flower-2', type: 'static', month: 3, day: 21 },
     { id: 'bahai', name: 'Bahá\'í (Naw-Rúz)', region: 'Worldwide', icon: 'star', type: 'static', month: 3, day: 21 },
     { id: 'kurdish', name: 'Kurdish (Newroz)', region: 'Kurdistan', icon: 'flame', type: 'static', month: 3, day: 21 },
     { id: 'assyrian', name: 'Assyrian (Akitu)', region: 'Middle East', icon: 'sun', type: 'static', month: 4, day: 1 },
+    // Vietnamese Tết follows the same lunar calendar as Chinese New Year
     { id: 'vietnamese', name: 'Vietnamese (Tết)', region: 'Vietnam', icon: 'moon', type: 'intl', calendar: 'chinese' }
 ];
 
