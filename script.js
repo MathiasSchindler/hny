@@ -27,6 +27,7 @@ const calendarConfigs = [
     { id: 'bengali', name: 'Bengali (Pohela Boishakh)', region: 'Bangladesh / West Bengal', icon: 'sunrise', type: 'static', month: 4, day: 14 },
     { id: 'tamil', name: 'Tamil (Puthandu)', region: 'Tamil Nadu / Sri Lanka', icon: 'leaf', type: 'static', month: 4, day: 14 },
     { id: 'sinhalese', name: 'Sinhalese (Aluth Avuruddu)', region: 'Sri Lanka', icon: 'sunset', type: 'static', month: 4, day: 14 },
+    // Tibetan Losar follows lunar calendar closely aligned with Chinese New Year, though may differ by a month occasionally
     { id: 'tibetan', name: 'Tibetan (Losar)', region: 'Tibet / Himalayas', icon: 'mountains', type: 'intl', calendar: 'chinese' },
     { id: 'nepali', name: 'Nepali (Bikram Sambat)', region: 'Nepal', icon: 'triangle', type: 'static', month: 4, day: 14 },
     { id: 'balinese', name: 'Balinese Saka (Nyepi)', region: 'Bali', icon: 'waves', type: 'static', month: 3, day: 22 }
