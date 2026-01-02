@@ -24,12 +24,12 @@ const calendarConfigs = [
     // Vietnamese Tết follows the same lunar calendar as Chinese New Year
     { id: 'vietnamese', name: 'Vietnamese (Tết)', region: 'Vietnam', icon: 'moon', type: 'intl', calendar: 'chinese' },
     // Additional calendars for better coverage
-    { id: 'bengali', name: 'Bengali (Pohela Boishakh)', region: 'Bangladesh / West Bengal', icon: 'sun', type: 'static', month: 4, day: 14 },
-    { id: 'tamil', name: 'Tamil (Puthandu)', region: 'Tamil Nadu / Sri Lanka', icon: 'flower', type: 'static', month: 4, day: 14 },
-    { id: 'sinhalese', name: 'Sinhalese (Aluth Avurudda)', region: 'Sri Lanka', icon: 'sun', type: 'static', month: 4, day: 14 },
-    { id: 'tibetan', name: 'Tibetan (Losar)', region: 'Tibet / Himalayas', icon: 'mountain', type: 'intl', calendar: 'chinese' },
-    { id: 'nepali', name: 'Nepali (Bikram Sambat)', region: 'Nepal', icon: 'mountain', type: 'static', month: 4, day: 14 },
-    { id: 'balinese', name: 'Balinese Saka (Nyepi)', region: 'Bali', icon: 'flower-2', type: 'static', month: 3, day: 22 }
+    { id: 'bengali', name: 'Bengali (Pohela Boishakh)', region: 'Bangladesh / West Bengal', icon: 'sunrise', type: 'static', month: 4, day: 14 },
+    { id: 'tamil', name: 'Tamil (Puthandu)', region: 'Tamil Nadu / Sri Lanka', icon: 'leaf', type: 'static', month: 4, day: 14 },
+    { id: 'sinhalese', name: 'Sinhalese (Aluth Avuruddu)', region: 'Sri Lanka', icon: 'sunset', type: 'static', month: 4, day: 14 },
+    { id: 'tibetan', name: 'Tibetan (Losar)', region: 'Tibet / Himalayas', icon: 'mountains', type: 'intl', calendar: 'chinese' },
+    { id: 'nepali', name: 'Nepali (Bikram Sambat)', region: 'Nepal', icon: 'triangle', type: 'static', month: 4, day: 14 },
+    { id: 'balinese', name: 'Balinese Saka (Nyepi)', region: 'Bali', icon: 'waves', type: 'static', month: 3, day: 22 }
 ];
 
 function calculateAndRender() {
