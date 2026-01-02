@@ -5,13 +5,24 @@ const calendarConfigs = [
     { id: 'korean', name: 'Korean (Dangi)', region: 'Korea', icon: 'moon', type: 'intl', calendar: 'dangi' },
     { id: 'hebrew', name: 'Hebrew', region: 'Jewish / Israel', icon: 'sun', type: 'intl', calendar: 'hebrew' },
     { id: 'islamic', name: 'Islamic (Hijri)', region: 'Muslim World', icon: 'moon', type: 'intl', calendar: 'islamic-umalqura' },
+    { id: 'islamic-civil', name: 'Islamic Civil', region: 'Muslim World', icon: 'moon', type: 'intl', calendar: 'islamic-civil' },
     { id: 'persian', name: 'Persian (Jalali)', region: 'Iran / Afghanistan', icon: 'sun', type: 'intl', calendar: 'persian' },
     { id: 'indian', name: 'Indian National', region: 'India', icon: 'globe', type: 'intl', calendar: 'indian' },
     { id: 'coptic', name: 'Coptic', region: 'Egypt', icon: 'sun', type: 'intl', calendar: 'coptic' },
     { id: 'ethiopic', name: 'Ethiopic', region: 'Ethiopia', icon: 'sun', type: 'intl', calendar: 'ethiopic' },
+    { id: 'japanese', name: 'Japanese', region: 'Japan', icon: 'sun', type: 'intl', calendar: 'japanese' },
+    { id: 'buddhist', name: 'Buddhist', region: 'Southeast Asia', icon: 'sun', type: 'intl', calendar: 'buddhist' },
+    { id: 'roc', name: 'Minguo (ROC)', region: 'Taiwan', icon: 'globe', type: 'intl', calendar: 'roc' },
     { id: 'orthodox', name: 'Orthodox (Old NY)', region: 'Eastern Europe', icon: 'sparkles', type: 'static', month: 1, day: 14 },
     { id: 'thai', name: 'Thai (Songkran)', region: 'Thailand', icon: 'flower', type: 'static', month: 4, day: 13 },
-    { id: 'berber', name: 'Berber (Yennayer)', region: 'North Africa', icon: 'mountain', type: 'static', month: 1, day: 12 }
+    { id: 'berber', name: 'Berber (Yennayer)', region: 'North Africa', icon: 'mountain', type: 'static', month: 1, day: 12 },
+    // Spring equinox celebrations (March 20/21, historically related)
+    { id: 'nowruz', name: 'Nowruz (Spring)', region: 'Central Asia / Persia', icon: 'flower-2', type: 'static', month: 3, day: 21 },
+    { id: 'bahai', name: 'Bahá\'í (Naw-Rúz)', region: 'Worldwide', icon: 'star', type: 'static', month: 3, day: 21 },
+    { id: 'kurdish', name: 'Kurdish (Newroz)', region: 'Kurdistan', icon: 'flame', type: 'static', month: 3, day: 21 },
+    { id: 'assyrian', name: 'Assyrian (Akitu)', region: 'Middle East', icon: 'sun', type: 'static', month: 4, day: 1 },
+    // Vietnamese Tết follows the same lunar calendar as Chinese New Year
+    { id: 'vietnamese', name: 'Vietnamese (Tết)', region: 'Vietnam', icon: 'moon', type: 'intl', calendar: 'chinese' }
 ];
 
 function calculateAndRender() {
@@ -123,7 +134,7 @@ function renderUI(results) {
             <div class="bg-white/5 border border-white/10 p-6 rounded-2xl backdrop-blur-sm">
                 <p class="text-slate-400 font-bold text-2xl mb-2">Not exactly.</p>
                 <p class="text-slate-400">
-                    It's just a regular day in most major calendar systems. <br/>
+                    It's not New Year's Day in these calendar systems today. <br/>
                     <span class="text-slate-500 text-sm">(But don't let that stop you from celebrating life!)</span>
                 </p>
             </div>
