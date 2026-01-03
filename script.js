@@ -30,7 +30,8 @@ const calendarConfigs = [
     // Tibetan Losar follows lunar calendar closely aligned with Chinese New Year, though may differ by a month occasionally
     { id: 'tibetan', name: 'Tibetan (Losar)', region: 'Tibet / Himalayas', icon: 'mountains', type: 'intl', calendar: 'chinese' },
     { id: 'nepali', name: 'Nepali (Bikram Sambat)', region: 'Nepal', icon: 'triangle', type: 'static', month: 4, day: 14 },
-    { id: 'balinese', name: 'Balinese Saka (Nyepi)', region: 'Bali', icon: 'waves', type: 'static', month: 3, day: 22 }
+    { id: 'balinese', name: 'Balinese Saka (Nyepi)', region: 'Bali', icon: 'waves', type: 'static', month: 3, day: 22 },
+    { id: 'microsoft-fiscal', name: 'Microsoft Fiscal Year', region: 'Redmond / GitHub', icon: 'briefcase', type: 'static', month: 7, day: 1 }
 ];
 
 function calculateAndRender() {
